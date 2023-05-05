@@ -6,3 +6,111 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+.spotify-logo {
+    width: 250px;
+    height: 70px;
+    float: left;
+    padding: 1%;
+}
+
+
+
+.barra-fija { 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  color: ;
+  padding: 00px;
+  z-index: 9999;
+  text-align: right;
+}
+
+
+    
+    
+  
+  .barra-fija ul {
+    list-style: none;
+  }
+  
+  .barra-fija li {
+    display: inline-block;
+    margin:  10px;
+    
+  }
+  
+  .barra-fija a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+     
+  }
+  
+
+  .imagen-concierto{
+
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    
+    
+  }
+
+  .text-dentro-imagen {
+    
+    position: absolute;
+    top: 25vw; 
+    left: 30svw;
+    color: white;
+    font-size: 2svw;
+    font-weight: bold;
+    z-index: 1;
+    justify-content: center;
+ 
+  }
+
+  .what-on-spotify {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    
+
+  }
+
+  .box1 {
+      text-align: left;
+      margin: %;
+  }
+
+  .box2 {
+      text-align: center;
+     
+  }
+
+  .box3 {
+      text-align: right;
+   
+  }
+
+
+  .all-the-boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+  }
+  
+  .all-the-boxes img {
+    width: 30%;
+    height: auto;
+  }
+  
+  h4 {
+    color: #00B172;
+
+  }
+
+  
